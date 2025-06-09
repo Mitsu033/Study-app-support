@@ -45,7 +45,11 @@ const Home = () => {
               <CardHeader className="pb-4">
                 <div className="flex items-center space-x-3 mb-4">
                   <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center">
-                    <img src={iconImage} alt="SakuraEnglish" className="h-6 w-6 object-contain" />
+                    <img 
+                      src={iconImage} 
+                      alt="SakuraEnglish" 
+                      className="h-6 w-6 object-contain filter brightness-0 invert" 
+                    />
                   </div>
                   <div>
                     <CardTitle className="text-2xl text-blue-900">SakuraEnglish</CardTitle>
