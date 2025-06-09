@@ -88,7 +88,7 @@ const Home = () => {
               </CardContent>
             </Card>
 
-            {/* SakuraKobun Card */}
+            {/* mame Card */}
             <Card className="group hover:shadow-2xl transition-all duration-300 border-0 bg-gradient-to-br from-purple-50 to-pink-100">
               <CardHeader className="pb-4">
                 <div className="flex items-center space-x-3 mb-4">
@@ -96,25 +96,25 @@ const Home = () => {
                     <BookOpen className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <CardTitle className="text-2xl text-purple-900">SakuraKobun</CardTitle>
-                    <CardDescription className="text-purple-700">古文単語学習アプリ</CardDescription>
+                    <CardTitle className="text-2xl text-purple-900">mame</CardTitle>
+                    <CardDescription className="text-purple-700">豆知識学習アプリ</CardDescription>
                   </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-gray-700 leading-relaxed">
-                  古文の理解を深める古文単語学習アプリです。現代語訳と語源解説で、古文単語の意味を深く理解できます。
-                  高校生から大学受験生まで、幅広い学習者に対応した充実のコンテンツを提供します。
+                  日常で役立つ豆知識を楽しく学べるアプリです。雑学から実用的な知識まで、
+                  幅広いジャンルの豆知識を効率的に学習できます。クイズ形式で楽しみながら知識を深めましょう。
                 </p>
                 
                 <div className="grid grid-cols-2 gap-4 py-4">
                   <div className="flex items-center space-x-2">
                     <Star className="h-4 w-4 text-yellow-500" />
-                    <span className="text-sm text-gray-600">3,000+ 古文単語</span>
+                    <span className="text-sm text-gray-600">1,000+ 豆知識</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Users className="h-4 w-4 text-green-500" />
-                    <span className="text-sm text-gray-600">25,000+ ユーザー</span>
+                    <span className="text-sm text-gray-600">15,000+ ユーザー</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Smartphone className="h-4 w-4 text-blue-500" />
@@ -122,16 +122,16 @@ const Home = () => {
                   </div>
                   <div className="flex items-center space-x-2">
                     <GraduationCap className="h-4 w-4 text-purple-500" />
-                    <span className="text-sm text-gray-600">受験対応</span>
+                    <span className="text-sm text-gray-600">カテゴリ別学習</span>
                   </div>
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-3 pt-4">
                   <Button asChild className="flex-1 bg-purple-600 hover:bg-purple-700">
-                    <Link to="/sakura-kobun">詳細を見る</Link>
+                    <Link to="/mame">詳細を見る</Link>
                   </Button>
                   <Button variant="outline" asChild className="flex-1">
-                    <Link to="/sakura-kobun/contact">お問い合わせ</Link>
+                    <Link to="/mame/contact">お問い合わせ</Link>
                   </Button>
                 </div>
               </CardContent>

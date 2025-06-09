@@ -5,9 +5,9 @@ import Home from './pages/Home'
 import SakuraEnglishIntro from './pages/SakuraEnglishIntro'
 import SakuraEnglishPrivacy from './pages/SakuraEnglishPrivacy'
 import SakuraEnglishContact from './pages/SakuraEnglishContact'
-import SakuraKobunIntro from './pages/SakuraKobunIntro'
-import SakuraKobunPrivacy from './pages/SakuraKobunPrivacy'
-import SakuraKobunContact from './pages/SakuraKobunContact'
+import MameIntro from './pages/MameIntro'
+import MamePrivacy from './pages/MamePrivacy'
+import MameContact from './pages/MameContact'
 
 function App() {
   return (
@@ -18,9 +18,9 @@ function App() {
           <Route path="/sakura-english" element={<SakuraEnglishIntro />} />
           <Route path="/sakura-english/privacy" element={<SakuraEnglishPrivacy />} />
           <Route path="/sakura-english/contact" element={<SakuraEnglishContact />} />
-          <Route path="/sakura-kobun" element={<SakuraKobunIntro />} />
-          <Route path="/sakura-kobun/privacy" element={<SakuraKobunPrivacy />} />
-          <Route path="/sakura-kobun/contact" element={<SakuraKobunContact />} />
+          <Route path="/mame" element={<MameIntro />} />
+          <Route path="/mame/privacy" element={<MamePrivacy />} />
+          <Route path="/mame/contact" element={<MameContact />} />
         </Routes>
       </Layout>
     </Router>

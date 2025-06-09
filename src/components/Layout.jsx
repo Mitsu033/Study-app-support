@@ -28,9 +28,9 @@ const Layout = ({ children }) => {
                 <BookOpen size={16} />
                 <span>SakuraEnglish</span>
               </Link>
-              <Link to="/sakura-kobun" className="flex items-center space-x-1 text-gray-600 hover:text-pink-600 transition-colors">
+              <Link to="/mame" className="flex items-center space-x-1 text-gray-600 hover:text-pink-600 transition-colors">
                 <BookOpen size={16} />
-                <span>SakuraKobun</span>
+                <span>mame</span>
               </Link>
             </nav>
           </div>
@@ -68,11 +68,11 @@ const Layout = ({ children }) => {
             </div>
             
             <div>
-              <h3 className="font-semibold mb-4">SakuraKobun</h3>
+              <h3 className="font-semibold mb-4">mame</h3>
               <ul className="space-y-2 text-gray-400">
-                <li><Link to="/sakura-kobun" className="hover:text-white transition-colors">アプリ紹介</Link></li>
-                <li><Link to="/sakura-kobun/privacy" className="hover:text-white transition-colors">プライバシーポリシー</Link></li>
-                <li><Link to="/sakura-kobun/contact" className="hover:text-white transition-colors">お問い合わせ</Link></li>
+                <li><Link to="/mame" className="hover:text-white transition-colors">アプリ紹介</Link></li>
+                <li><Link to="/mame/privacy" className="hover:text-white transition-colors">プライバシーポリシー</Link></li>
+                <li><Link to="/mame/contact" className="hover:text-white transition-colors">お問い合わせ</Link></li>
               </ul>
             </div>
           </div>
