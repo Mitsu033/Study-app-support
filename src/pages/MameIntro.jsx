@@ -19,7 +19,7 @@ import {
 } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
-const SakuraKobunIntro = () => {
+const MameIntro = () => {
   const features = [
     {
       icon: <Scroll className="h-6 w-6" />,
@@ -76,7 +76,7 @@ const SakuraKobunIntro = () => {
                   古文単語学習アプリ
                 </Badge>
                 <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                  SakuraKobun
+                  Mame
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
                   古典文学の美しさを現代に。語源から学ぶ古文単語で、
@@ -90,7 +90,7 @@ const SakuraKobunIntro = () => {
                   無料ダウンロード
                 </Button>
                 <Button variant="outline" size="lg" asChild>
-                  <Link to="/sakura-kobun/contact">お問い合わせ</Link>
+                  <Link to="/mame/contact">お問い合わせ</Link>
                 </Button>
               </div>
               
@@ -308,10 +308,10 @@ const SakuraKobunIntro = () => {
           </div>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="outline" className="border-white text-white hover:bg-white hover:text-purple-600" asChild>
-              <Link to="/sakura-kobun/privacy">プライバシーポリシー</Link>
+              <Link to="/mame/privacy">プライバシーポリシー</Link>
             </Button>
             <Button variant="outline" className="border-white text-white hover:bg-white hover:text-purple-600" asChild>
-              <Link to="/sakura-kobun/contact">お問い合わせ</Link>
+              <Link to="/mame/contact">お問い合わせ</Link>
             </Button>
           </div>
         </div>
@@ -320,5 +320,5 @@ const SakuraKobunIntro = () => {
   )
 }
 
-export default SakuraKobunIntro
+export default MameIntro
 
