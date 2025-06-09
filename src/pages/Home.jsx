@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { GraduationCap, Smartphone, Star, Users, Download, BookOpen } from 'lucide-react'
+import iconImage from '@/assets/icon.png'
 
 const Home = () => {
   return (
@@ -44,7 +45,7 @@ const Home = () => {
               <CardHeader className="pb-4">
                 <div className="flex items-center space-x-3 mb-4">
                   <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center">
-                    <img src="/src/assets/icon.png" alt="SakuraEnglish" className="h-6 w-6" />
+                    <img src={iconImage} alt="SakuraEnglish" className="h-6 w-6 object-contain" />
                   </div>
                   <div>
                     <CardTitle className="text-2xl text-blue-900">SakuraEnglish</CardTitle>
